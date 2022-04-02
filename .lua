@@ -88,8 +88,6 @@ TextLabel.TextScaled = true
 Text
 
 
-
-
 -- Unnamed ESP
 
 assert(Drawing, 'exploit not supported')

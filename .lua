@@ -14,12 +14,13 @@ end)
 
 local Tab = Window:NewTab("LocalPlayer")
 local LocalPlayerSection = Tab:NewSection("LocalPlayer")
-LocalPlayerSection:NewDropdown("Scripts", "DropdownInf", {"Fly Gui", "?", "Esp"}, function(s)
-Local Execute = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Coolmesir/My-Own-Script-Roblox/main/Flygui.lua", true))()
+LocalPlayerSection:NewDropdown("Scripts", "DropdownInf", {"Fly Gui", "idk", "Esp"}, function(s)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 
 
 
-Local Execute = loadstring(game:HttpGet(("https://pastebin.com/raw/kvr0AuWz", true))()
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/kvr0AuWz"))()
     print(currentOption)
 end)

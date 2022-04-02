@@ -15,7 +15,7 @@ end)
 local Tab = Window:NewTab("LocalPlayer")
 local LocalPlayerSection = Tab:NewSection("LocalPlayer")
 LocalPlayerSection:NewDropdown("Scripts", "DropdownInf", {"Fly Gui", "?", "Esp"}, function(s)
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/Coolmesir/My-Own-Script-Roblox/main/Flygui.lua", true))()
+Local Execute = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Coolmesir/My-Own-Script-Roblox/main/Flygui.lua", true))()
 
 
 

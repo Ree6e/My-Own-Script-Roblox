@@ -20,7 +20,6 @@ Local Execute = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Cool
 
 
 
-
 Local Execute = loadstring(game:HttpGet(("https://pastebin.com/raw/kvr0AuWz", true))()
     print(currentOption)
 end)

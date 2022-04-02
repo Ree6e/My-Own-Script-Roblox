@@ -15,10 +15,10 @@ end)
 local Tab = Window:NewTab("LocalPlayer")
 local LocalPlayerSection = Tab:NewSection("LocalPlayer")
 LocalPlayerSection:NewDropdown("Scripts", "DropdownInf", {"Fly Gui", "Esp Pc Only", "Esp For Mobile/Pc"}, function(s)
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/kvr0AuWz"))()
+
     print(currentOption)
 end)

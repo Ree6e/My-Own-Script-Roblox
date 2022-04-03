@@ -12,10 +12,8 @@ end)
 
 
 
-local Tab = Window:NewTab("LocalPlayer")
-local LocalPlayerSection = Tab:NewSection("LocalPlayer")
-LocalPlayerSection:NewDropdown("Scripts", "DropdownInf", {"Fly Gui", "Esp Pc Only", "Esp For Mobile/Pc"}, function(s)
-    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Coolmesir/My-Own-Script-Roblox/main/Flygui.lua"))()
+ScriptsSection:NewDropdown("Scripts", "DropdownInf", {"Fly Gui", "Esp Pc Only", "Esp For Mobile/Pc"}, function(s)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Coolmesir/My-Own-Script-Roblox/main/Flygui.lua"))()
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/kvr0AuWz"))()
 
@@ -26,8 +24,8 @@ end)
 
 
 
-local LocalPlayerSection = Tab:NewSection("Games")
-LocalPlayerSection:NewDropdown("Prison Life", "DropdownInf", {"M9", "Remington 870", "Admin"}, function(s)
+local ScriptsSection = Tab:NewSection("Games")
+ScriptsSection:NewDropdown("Prison Life", "DropdownInf", {"M9", "Remington 870", "Admin"}, function(s)
 local A_1 = game:GetService("Workspace")["Prison_ITEMS"].giver.M9.ITEMPICKUP
 local Event = game:GetService("Workspace").Remote.ItemHandler
 Event:InvokeServer(A_1)
@@ -36,5 +34,23 @@ local A_1 = game:GetService("Workspace")["Prison_ITEMS"].giver["Remington 870"].
 local Event = game:GetService("Workspace").Remote.ItemHandler
 Event:InvokeServer(A_1)
 
+local Library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
     print(s)
 end)
+
+
+KeybindsSection:NewKeybind("Soon?!", "Soon", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
+
+
+
+local Tab = Window:NewTab("Scripts")
+local ScriptsSection = Tab:NewSection("Scripts")
+
+
+
+
+local Tab = Window:NewTab("Keybinds")
+local KeybindsSection = Tab:NewSection("Keybinds")

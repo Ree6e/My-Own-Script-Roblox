@@ -37,14 +37,12 @@ local Event = game:GetService("Workspace").Remote.ItemHandler
 Event:InvokeServer(A_1)
 
 local Library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
-    print(s)
+    print(currentOption)
 end)
 
 local Tab = Window:NewTab("Keybinds")
 local KeybindsSection = Tab:NewSection("Keybinds")
-KeybindsSection:NewKeybind("Soon?!", "Soon", Enum.KeyCode.F, function()
-	Library:ToggleUI()
-end)
+KeybindsSection:NewLabel("Soon!")
 
 
 

@@ -11,6 +11,7 @@ end)
 
 
 
+
 local Tab = Window:NewTab("Scripts")
 local ScriptsSection = Tab:NewSection("Scripts")
 ScriptsSection:NewDropdown("Scripts", "DropdownInf", {"Fly Gui", "Esp Pc Only", "Esp For Mobile/Pc"}, function(s)
@@ -23,34 +24,28 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Coolm
 end)
 
 
-
-
 local ScriptsSection = Tab:NewSection("Games")
-ScriptsSection:NewDropdown("Prison Life", "DropdownInf", {"M9", "Remington 870", "Admin"}, function(s)
+ScriptsSection:NewDropdown("Prison Life", "Prison Life Scripts", {"M9", "Remington 870", "Admin"}, function(s)
+
 local A_1 = game:GetService("Workspace")["Prison_ITEMS"].giver.M9.ITEMPICKUP
 local Event = game:GetService("Workspace").Remote.ItemHandler
 Event:InvokeServer(A_1)
+
 
 local A_1 = game:GetService("Workspace")["Prison_ITEMS"].giver["Remington 870"].ITEMPICKUP
 local Event = game:GetService("Workspace").Remote.ItemHandler
 Event:InvokeServer(A_1)
 
+
 local Library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
     print(currentOption)
 end)
 
-local Tab = Window:NewTab("Keybinds")
-local KeybindsSection = Tab:NewSection("Keybinds")
-KeybindsSection:NewLabel("Soon!")
+
 
 local Tab = Window:NewTab("Guis")
 local GuisSection = Tab:NewSection("Guis")
 GuisSection:NewButton("Troll Gui", "Trolling Gui", function()
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/RNWgaqCE", true))()
-    print("Clicked")
-end)
-
-GuisSection:NewButton("Bloxfruit Gui", "Bloxfruit Hub", function()
-Local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
     print("Clicked")
 end)

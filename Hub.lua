@@ -11,7 +11,6 @@ end)
 
 
 
-
 local Tab = Window:NewTab("Scripts")
 local ScriptsSection = Tab:NewSection("Scripts")
 ScriptsSection:NewDropdown("Scripts", "DropdownInf", {"Fly Gui", "Esp Pc Only", "Esp For Mobile/Pc"}, function(s)
@@ -22,7 +21,6 @@ local Library = loadstring(game:HttpGet("https://pastebin.com/raw/kvr0AuWz"))()
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Coolmesir/My-Own-Script-Roblox/main/Esp.lua"))()
     print(s)
 end)
-
 
 
 
@@ -43,7 +41,6 @@ end)
 local Tab = Window:NewTab("Keybinds")
 local KeybindsSection = Tab:NewSection("Keybinds")
 KeybindsSection:NewLabel("Soon!")
-
 
 
 

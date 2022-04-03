@@ -19,5 +19,7 @@ LocalPlayerSection:NewDropdown("Scripts", "DropdownInf", {"Fly Gui", "Esp Pc Onl
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/kvr0AuWz"))()
 
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Coolmesir/My-Own-Script-Roblox/main/Esp.lua"))()
     print(currentOption)
 end)
+

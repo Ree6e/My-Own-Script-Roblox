@@ -19,7 +19,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Coolm
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/kvr0AuWz"))()
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Coolmesir/My-Own-Script-Roblox/main/Esp.lua"))()
-    print(s)
+    print(currentOption)
 end)
 
 
@@ -48,5 +48,10 @@ local Tab = Window:NewTab("Guis")
 local GuisSection = Tab:NewSection("Guis")
 GuisSection:NewButton("Troll Gui", "Trolling Gui", function()
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/RNWgaqCE", true))()
+    print("Clicked")
+end)
+
+GuisSection:NewButton("Bloxfruit Gui", "Bloxfruit Hub", function()
+Local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/free'))()
     print("Clicked")
 end)
